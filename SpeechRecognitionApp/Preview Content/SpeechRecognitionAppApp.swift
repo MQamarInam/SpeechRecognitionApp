@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SwiftData
 
 @main
 struct SpeechRecognitionAppApp: App {
@@ -13,5 +14,6 @@ struct SpeechRecognitionAppApp: App {
         WindowGroup {
             ContentView()
         }
+        .modelContainer(for: SpeechModel.self)
     }
 }

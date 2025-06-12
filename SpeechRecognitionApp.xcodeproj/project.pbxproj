@@ -10,9 +10,22 @@
 		520EA3FF2DEA00290012A86B /* SpeechRecognitionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeechRecognitionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		52390B5B2DEB54E500EB69D6 /* Exceptions for "SpeechRecognitionApp" folder in "SpeechRecognitionApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 520EA3FE2DEA00290012A86B /* SpeechRecognitionApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		520EA4012DEA00290012A86B /* SpeechRecognitionApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				52390B5B2DEB54E500EB69D6 /* Exceptions for "SpeechRecognitionApp" folder in "SpeechRecognitionApp" target */,
+			);
 			path = SpeechRecognitionApp;
 			sourceTree = "<group>";
 		};
@@ -252,8 +265,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SpeechRecognitionApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 2ABCR8LFBA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpeechRecognitionApp/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "his app needs microphone access to record your speech for transcription";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "This app needs speech recognition to convert your speech to text";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -280,8 +297,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SpeechRecognitionApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 2ABCR8LFBA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpeechRecognitionApp/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "his app needs microphone access to record your speech for transcription";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "This app needs speech recognition to convert your speech to text";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

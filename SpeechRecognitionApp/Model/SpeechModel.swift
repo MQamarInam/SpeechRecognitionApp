@@ -3,10 +3,10 @@
 //  SpeechRecognization
 //
 //  Created by Qaim's Macbook  on 28/05/2025.
-//
 
-import Foundation
+
 import SwiftData
+import Foundation
 
 @Model
 final class SpeechModel {
